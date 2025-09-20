@@ -1,0 +1,15 @@
+{
+  "name": "tw-mon",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.15.8",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "release": "yarn workspaces foreach --all version"
+  }
+}
