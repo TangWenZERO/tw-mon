@@ -1,0 +1,14 @@
+{
+  "name": "@tw/ai-hooks",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "dependencies": {
+    "@tw/ai-libs": "workspace:^0.0.1"
+  },
+  "scripts": {
+    "build": "echo 'No build step for ai-hooks'",
+    "test": "echo 'No tests for ai-hooks'"
+  }
+}

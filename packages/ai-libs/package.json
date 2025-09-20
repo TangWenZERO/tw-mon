@@ -1,0 +1,11 @@
+{
+  "name": "@tw/ai-libs",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "echo 'No build step for ai-libs'",
+    "test": "echo 'No tests for ai-libs'"
+  }
+}
