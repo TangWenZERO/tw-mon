@@ -2,3 +2,6 @@ node_modules/
 dist/
 .pnp.cjs
 .yarn/cache/
+.turbo/
+.next/
+!important-files
